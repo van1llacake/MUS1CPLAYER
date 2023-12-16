@@ -15,31 +15,8 @@ body
     box-sizing: border-box;
 }
 
-#main_banner
-{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 44px;
-    text-align: center;
-    padding: 10px;
-    background-color: #fff;
-    z-index: 9999;
-}
 
-#main_banner a
-{
-    display: inline-block;
-    width: 24px;
-    height: 20px;
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    padding: 12px 10px;
-    margin: 0 5px;
-    border-radius: 2px;
+}
 }
 
 }

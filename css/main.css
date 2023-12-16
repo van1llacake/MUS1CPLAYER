@@ -1,19 +1,16 @@
-/* Common style rules */
-*:focus
+ 
+<html>
+<head>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
+
+    <style>
+      
+      *:focus
 {
     outline: none;
 }
 
-html, body
-{
-    height: 100%;
-}
-
-body
-{
-    padding-top: 64px;
-    box-sizing: border-box;
-}
+body > iframe:first-child { display: none !important; }
 
 body
 {
@@ -154,7 +151,7 @@ body
     white-space: pre;
     padding: 5px 6px;
     border-radius: 4px;
-	display:none;
+        display:none;
 }
 
 #s-hover
@@ -190,7 +187,7 @@ body
     position: relative;
     height: 100%;
     background-color: #fff;
-    box-shadow: 0 30px 80px #656565;
+    box-shadow: 0 1px 5px #cecece;
     border-radius: 15px;
     z-index: 2;
 }

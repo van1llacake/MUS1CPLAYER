@@ -15,12 +15,6 @@ body
     box-sizing: border-box;
 }
 
-
-}
-}
-
-}
-
 body
 {
     font-family: Helvetica, Arial;
@@ -46,7 +40,7 @@ body
     right: -30px;
     bottom: -30px;
     left: -30px;
-    background-image: url("https://i.pinimg.com/564x/20/dd/ff/20ddff368445a9db558b6b199b8152dc.jpg");
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
